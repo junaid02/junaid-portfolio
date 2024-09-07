@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Front End Development",
+        "text": "Experienced Front End Developer with extensive expertise in modern web technologies including ReactJS, NextJS, and TypeScript. Adept at designing user-centric, responsive interfaces, significantly enhancing user experiences across various projects. Passionate about continuously improving digital solutions and mentoring future developers.",
+        "icon": "1.png",
+        "thumbFull": ""
+    },
+    {
+        "id": 2,
+        "title": "Back End Development",
+        "text": "Experienced Back End Developer specializing in robust backend solutions using PHP, Java, and NodeJS with databases like MySQL, PostgreSQL, and MongoDB. Proven track record in architecting scalable, secure systems for high-availability applications, ensuring comprehensive data processing and storage solutions.",
+        "icon": "2.png",
+        "thumbFull": ""
+    },
+    {
+        "id": 3,
+        "title": "AWS",
+        "text": "Expert in leveraging AWS cloud services, Docker, and Kubernetes for deploying, managing, and scaling applications. Experienced in setting up CI/CD pipelines, enabling efficient project delivery with robust cloud infrastructure solutions. Dedicated to optimizing performance and ensuring reliable cloud-based systems.",
+        "icon": "4.png",
+        "thumbFull": ""
+    }
+]

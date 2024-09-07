@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "thumb": "/assets/img/portfolio/pkdreamers1.png",
+    "subTitle": "Full Stack Development",
+    "title": "pkdreamers.com",
+    "arrowIcon": "fas fa-arrow-right",
+    "client": "Self-initiated",
+    "projectType": "Full Stack Development",
+    "date": "2023/03 – 2023/06",
+    "address": "Melbourne, Australia",
+    "description": "Founded and developed pkdreamers, an innovative platform connecting travelers with tour agencies in Pakistan, using the MERN stack. Engineered comprehensive front-end and back-end solutions, including user interfaces in React and Next.js, and API development with GraphQL, Node.js, and Express.",
+    "responsibilities": [
+      {
+        "title": "Front-End Development",
+        "description": "Developed user interfaces in React and Next.js, ensuring responsive and user-friendly experiences."
+      },
+      {
+        "title": "Back-End Development",
+        "description": "Engineered API development with GraphQL, Node.js, and Express, integrating MongoDB and MySQL databases for robust data handling."
+      }
+    ],
+    "images": [
+      "/assets/img/portfolio/pkdreamers2.png",
+      "/assets/img/portfolio/pkdreamers4.png",
+      "/assets/img/portfolio/pkdreamers3.png",
+      "/assets/img/portfolio/pkdreamers5.png"
+    ]
+  }
+]

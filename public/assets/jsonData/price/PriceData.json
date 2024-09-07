@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "WordPress Development",
+        "list": [
+            "1 Page with Elementor",
+            "Design Customization",
+            "Responsive Design"
+        ],
+        "btnText": "Order Now",
+        "btnClass": "btn-theme",
+        "price": 48,
+        "icon": "fab fa-wordpress",
+        "currency": "$"
+    },
+    {
+        "id": 2,
+        "title": "Static Frontend design",
+        "list": [
+            "2 Page with Bootstrap 5",
+            "Design implement",
+            "Responsive Design"
+        ],
+        "btnText": "Order Now",
+        "btnClass": "btn-dark",
+        "price": 24,
+        "icon": "fab fa-html5",
+        "currency": "$"
+    }
+]

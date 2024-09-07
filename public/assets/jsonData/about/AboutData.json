@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "icon": "fab fa-wordpress",
+        "designation": "Professional WordPress Developer",
+        "status": "Top Rated – UpWork"
+    },
+    {
+        "id": 2,
+        "icon": "fas fa-layer-group",
+        "designation": "Senior HTML Developer",
+        "status": "Level Two Seller -  Fiver"
+    }
+]

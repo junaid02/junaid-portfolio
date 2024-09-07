@@ -1,0 +1,119 @@
+{
+    "biographyData": [
+        {
+            "id": 1,
+            "title": "Name",
+            "info": "Junaid Ahmed"
+        },
+        
+        {
+            "id": 2,
+            "title": "Address",
+            "info": "Melbourne, Australia"
+        },
+        {
+            "id": 3,
+            "title": "Email",
+            "info": "junaid.ahmed625@gmail.com"
+        },
+        {
+            "id": 4,
+            "title": "Phone",
+            "info": "+61415626966"
+        },
+        {
+            "id": 5,
+            "title": "LinkedIn",
+            "link":"https://www.linkedin.com/in/junaid-ahmed625/",
+            "info": "junaid-ahmed625"
+        }
+        
+        
+    ],
+    "skillData": [
+        {
+            "id": 1,
+            "icon": "fab fa-laravel",
+            "title": "Object oriented programming",
+            "end": 75
+        },
+        {
+            "id": 2,
+            "icon": "fab fa-react",
+            "title": "Front-End with React",
+            "end": 84
+        },
+        {
+            "id": 3,
+            "icon": "fab fa-html5",
+            "title": "Advance frontend development",
+            "end": 92
+        }
+    ],
+    "educationData": [
+        
+        {
+            "id": 1,
+            "title": "BSc in Software Engineering",
+            "subTitle": "University of Punjab, Pakistan",
+            "timeSpan": "2012 - 2016"
+        },
+        {
+            "id": 2,
+            "title": "MIT Software Engineering",
+            "subTitle": "Federation University, Australia",
+            "timeSpan": "2016 - 2018"
+            
+        }
+        
+    ], "experienceData": [
+        {
+            "id": 1,
+            "title": "Software Engineer",
+            "company": "Court Services Victoria",
+            "timeSpan": "2023/06 – Present",
+            "location": "Melbourne, Australia",
+            "responsibilities": [
+                "Responsible for the development of a high-availability online case management system, enhancing digital court operations across Victoria for improved efficiency and public accessibility.",
+                "Designed user-centric, responsive React interfaces, significantly enhancing user experience for court staff and the public.",
+                "Architected and implemented backend solutions using Java and Groovy with PostgreSQL for data storage, ensuring scalable, secure data processing for comprehensive legal case management.",
+                "Involved in cross-functional collaboration to align system development with the nuanced requirements of the legal domain, ensuring comprehensive feature integration and user satisfaction."
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Full Stack Web Development Instructor",
+            "company": "University of Adelaide (Part Time)",
+            "timeSpan": "2023/08 – 2024/02",
+            "location": "Melbourne, Australia",
+            "responsibilities": [
+                "As an instructor at the University of Adelaide's bootcamp, I played a crucial role in shaping future web developers through immersive coding exercises and projects.",
+                "Delivered engaging lectures on a broad array of technologies, with a heavy focus on the MERN stack, particularly ReactJS and NodeJS."
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Software Engineer (Full Stack)",
+            "company": "VisualR",
+            "timeSpan": "2018/11 – 2023/03",
+            "location": "Melbourne, Australia",
+            "responsibilities": [
+                "Started as a Software Developer at VisualR and, due to my hard work and passion, was promoted to Senior Software Engineer within just two years.",
+                "Led full-stack development at VisualR, implementing web applications using technologies like ReactJS, NodeJS, TypeScript, NextJS, Apollo, GraphQL, MySQL, and MongoDB.",
+                "Managed API development with REST and GraphQL, and integrated database solutions with MySQL and MongoDB to enhance back-end functionality.",
+                "Oversaw application deployments across development, staging, and production environments, utilizing Git for version control and team collaboration."
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Founder & Developer",
+            "company": "pkdreamers.com",
+            "timeSpan": "2023/03 – 2023/06",
+            "location": "Melbourne, Australia",
+            "responsibilities": [
+                "Founded and developed pkdreamers, an innovative platform connecting travelers with tour agencies in Pakistan, using the MERN stack.",
+                "Engineered comprehensive front-end and back-end solutions, including user interfaces in React and Next.js, and API development with GraphQL, Node.js and Express."
+            ]
+        }
+    ]
+}
