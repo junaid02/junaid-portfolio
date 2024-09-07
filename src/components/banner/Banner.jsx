@@ -4,7 +4,7 @@ import { ReactTyped } from "react-typed";
 import shape4 from "@/assets/img/shape/4.png";
 import shape7 from "@/assets/img/shape/7.png";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "react-scroll";
 import pic1 from "@/assets/img/illustration/pic1.png";
 import SocialShare from "../utilities/SocialShare";
 
@@ -34,9 +34,20 @@ const Banner = () => {
                     ></ReactTyped>
                   </span>
                 </h3>
-                <div className="button mt-55">
-                  <Link className="btn btn-md circle btn-dark" href="/resume">
+                <div className="button d-flex flex-column mt-55">
+                  <Link
+                    className="btn btn-md circle btn-dark mb-3" // Added mb-3 for spacing between buttons
+                    to="resume"
+                    spy={true}
+                  >
                     My Resume
+                  </Link>
+                  <Link
+                    className="btn btn-md circle btn-dark"
+                    to="portfolio"
+                    spy={true}
+                  >
+                    My Portfolio
                   </Link>
                 </div>
               </div>

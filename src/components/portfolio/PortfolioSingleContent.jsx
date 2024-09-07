@@ -29,7 +29,7 @@ const PortfolioSingleContent = () => {
 
   return (
     <>
-      <div className="project-details-area default-padding">
+      <div className="project-details-area default-padding portfolio-padding">
         <div className="container">
           <div className="project-details-items">
             <h2>

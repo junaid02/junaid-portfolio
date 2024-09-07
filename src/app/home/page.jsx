@@ -15,7 +15,7 @@ import Work from "@/components/work/Work";
 import React from "react";
 
 export const metadata = {
-  title: "Ambrox - Personal Portfolio Template",
+  title: "Junaid - Personal Portfolio Website",
 };
 
 const Home = () => {

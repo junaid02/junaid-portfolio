@@ -624,7 +624,19 @@ body.bg-fixed,
     padding-bottom: 50px;
   }
 }
+.portfolio-padding {
+  padding-left: 120px;
+  padding-right: 120px;
+}
 
+@media only screen and (max-width: 767px) {
+  .portfolio-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
 .default-padding-big {
   padding: 250px 0;
 }
@@ -2687,7 +2699,7 @@ header.header-fixed {
 .header-fixed .f-flex {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   height: 100%;
 }
 
