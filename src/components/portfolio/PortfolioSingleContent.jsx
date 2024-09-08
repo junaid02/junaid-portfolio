@@ -32,7 +32,7 @@ const PortfolioSingleContent = () => {
       <div className="project-details-area default-padding portfolio-padding">
         <div className="container">
           <div className="project-details-items">
-            <h2>{portfolioItem.title}</h2>
+            <h2 className="text-wrap text-break">{portfolioItem.title}</h2>
             {/* Added the external link here */}
             <p>
               <a
