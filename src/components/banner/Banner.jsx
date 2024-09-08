@@ -5,7 +5,7 @@ import shape4 from "@/assets/img/shape/4.png";
 import shape7 from "@/assets/img/shape/7.png";
 import Image from "next/image";
 import { Link } from "react-scroll";
-import pic1 from "@/assets/img/illustration/pic1.png";
+import myPic from "@/assets/img/illustration/my-pic.png";
 import SocialShare from "../utilities/SocialShare";
 
 const Banner = () => {
@@ -52,7 +52,7 @@ const Banner = () => {
                 </div>
               </div>
               <div className="col-lg-6 thumb" data-wow-delay="900ms">
-                <Image className="wow fadeInDown" src={pic1} alt="Thumb" />
+                <Image className="wow fadeInDown" src={myPic} alt="Thumb" />
                 <div className="shape-center">
                   <Image src={shape7} alt="Thumb" />
                 </div>
