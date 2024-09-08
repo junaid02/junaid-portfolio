@@ -32,16 +32,18 @@ const PortfolioSingleContent = () => {
       <div className="project-details-area default-padding portfolio-padding">
         <div className="container">
           <div className="project-details-items">
-            <h2>
+            <h2>{portfolioItem.title}</h2>
+            {/* Added the external link here */}
+            <p>
               <a
-                href="https://www.pkdreamers.com"
+                href={portfolioItem.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{ color: "#007bff", textDecoration: "underline" }}
+                style={{ color: "#007bff" }}
               >
-                {portfolioItem.title}
+                Click here to view the website
               </a>
-            </h2>
+            </p>
             <p>{portfolioItem.description}</p>
             <ul className="check-list mt-40 mb-40">
               {portfolioItem.responsibilities.map((responsibility, index) => (
@@ -98,7 +100,7 @@ const PortfolioSingleContent = () => {
                     className="col-lg-6 col-md-6"
                     key={index}
                     onClick={() => handleImageClick(index + 1)} // Add 1 to index to account for thumb
-                    style={{ cursor: "pointer" }}
+                    style={{ cursor: "pointer", marginBottom: "20px" }}
                   >
                     <Image
                       src={image}

@@ -4,6 +4,7 @@
     "thumb": "/assets/img/portfolio/pkdreamers1.png",
     "subTitle": "Full Stack Development",
     "title": "pkdreamers.com",
+    "link": "https://www.pkdreamers.com",
     "arrowIcon": "fas fa-arrow-right",
     "client": "Self-initiated",
     "projectType": "Full Stack Development",
@@ -25,6 +26,34 @@
       "/assets/img/portfolio/pkdreamers4.png",
       "/assets/img/portfolio/pkdreamers3.png",
       "/assets/img/portfolio/pkdreamers5.png"
+    ]
+  }, {
+    "id": 2,
+    "thumb": "/assets/img/portfolio/pl1.png",
+    "subTitle": "Full Stack Development",
+    "title": "paramountliquor.com.au",
+    "link": "https://www.paramountliquor.com.au",
+    "arrowIcon": "fas fa-arrow-right",
+    "client": "Paramount Liquor",
+    "projectType": "Full Stack Development",
+    "date": "2018/11 – 2023/03",
+    "address": "Melbourne, Australia",
+    "description": "Led full-stack development for paramountliquor.com.au, a platform facilitating liquor distribution and management across Australia. Implemented both front-end and back-end systems, ensuring high-availability and scalability.",
+    "responsibilities": [
+      {
+        "title": "Front-End Development",
+        "description": "Designed and implemented user-centric interfaces using React and Next.js for a smooth browsing and ordering experience."
+      },
+      {
+        "title": "Back-End Development",
+        "description": "Developed APIs with Node.js and GraphQL, integrating MySQL for efficient data management and transactional processes."
+      }
+    ],
+    "images": [
+      "/assets/img/portfolio/pl2.png",
+      "/assets/img/portfolio/pl3.png",
+      "/assets/img/portfolio/pl4.png",
+      "/assets/img/portfolio/pl5.png"
     ]
   }
 ]
