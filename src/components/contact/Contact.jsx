@@ -9,7 +9,6 @@ const Contact = () => {
         id="contact"
         className="contact-area shape-less default-padding overflow-hidden"
       >
-        <h2 className="text-shade">Contact</h2>
         <div className="container">
           <div className="contact-content">
             <div className="row align-center">
