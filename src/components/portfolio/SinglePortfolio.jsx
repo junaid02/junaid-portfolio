@@ -9,7 +9,19 @@ const SinglePortfolio = ({ portfolio }) => {
     <>
       <div className="pf-item">
         <div className="overlay-content">
-          <Image src={thumb} alt="thumb" width={510} height={230} />
+          <div
+            className="image-container"
+            style={{ width: "510px", height: "230px" }}
+          >
+            <Image
+              src={thumb}
+              alt="thumb"
+              width={610}
+              height={350}
+              className="img-fluid"
+              style={{ objectFit: "cover" }}
+            />
+          </div>
           <div className="content">
             <div className="title">
               <span>{subTitle}</span>

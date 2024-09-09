@@ -34,16 +34,18 @@ const PortfolioSingleContent = () => {
           <div className="project-details-items">
             <h2 className="text-wrap text-break">{portfolioItem.title}</h2>
             {/* Added the external link here */}
-            <p>
-              <a
-                href={portfolioItem.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ color: "#007bff" }}
-              >
-                Click here to view the website
-              </a>
-            </p>
+            {portfolioItem?.link && (
+              <p>
+                <a
+                  href={portfolioItem.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "#007bff" }}
+                >
+                  Click here to view the website
+                </a>
+              </p>
+            )}
             <p>{portfolioItem.description}</p>
             <ul className="check-list mt-40 mb-40">
               {portfolioItem.responsibilities.map((responsibility, index) => (

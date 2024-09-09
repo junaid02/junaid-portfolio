@@ -55,5 +55,37 @@
       "/assets/img/portfolio/pl4.png",
       "/assets/img/portfolio/pl5.png"
     ]
+  },
+  {
+    "id": 3,
+    "thumb": "/assets/img/portfolio/cs1.png",
+    "subTitle": "Full Stack Development",
+    "title": "Case Management System",
+    "arrowIcon": "fas fa-arrow-right",
+    "client": "Court Services Victoria",
+    "projectType": "Full Stack Development",
+    "date": "2023/06 – present",
+    "address": "Melbourne, Australia",
+    "description": "Responsible for the development of a high-availability online case management system, enhancing digital court operations across Victoria for improved efficiency and public accessibility.",
+    "responsibilities": [
+      {
+        "title": "Front-End Development",
+        "description": "Designed user-centric, responsive React interfaces, significantly enhancing user experience for court staff and the public."
+      },
+      {
+        "title": "Back-End Development",
+        "description": "Architected and implemented backend solutions using Java and Groovy with PostgreSQL for data storage, ensuring scalable, secure data processing for comprehensive legal case management."
+      },
+      {
+        "title": "Cross-Functional Collaboration",
+        "description": "Involved in cross-functional collaboration to align system development with the nuanced requirements of the legal domain, ensuring comprehensive feature integration and user satisfaction."
+      }
+    ],
+    "images": [
+      "/assets/img/portfolio/cs2.png",
+      "/assets/img/portfolio/cs3.png",
+      "/assets/img/portfolio/cs4.png",
+      "/assets/img/portfolio/cs5.png"
+    ]
   }
 ]
